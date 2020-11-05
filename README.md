@@ -17,4 +17,7 @@ If we end up using our own method to cluster(instead of their otu_cooccurrence_n
 - The code can convert the "otu_sample_value.txt" into a sparse bipartite adjacency matrix(row: otu; column: sample).  
 - Then we can subset the otus of interest.  
 - After subsetting, we can plug this matrix of interest into the vsp function for clustering. This way, we can see the cluster of otus and the samples, by inspecting the Z and Y matrix respectively. Just an idea though, welcome to any thoguht!!!  
+- Please see the script "otu_cooccurrebce_network_note-EmilyV1" [2_tsvTograph].
+  -I added two bff with the enviromental data 1) for biomes and 2) for features. 
+  - We can use the one you like the most. 
 
